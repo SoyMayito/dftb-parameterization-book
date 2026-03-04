@@ -1,0 +1,21 @@
+dftb-parameterization-book/
+├── _config.yml           # Configuración del libro
+├── _toc.yml             # Tabla de contenidos
+├── intro.md             # Introducción
+├── part1-electronic/    # Parámetros electrónicos
+│   ├── 1-carbon-parameters.ipynb
+│   ├── 2-silicon-parameters.ipynb
+│   └── 3-alkali-parameters.ipynb
+├── part2-shortrange/    # Potencial corto alcance
+│   ├── 1-training-set.ipynb
+│   └── 2-fitting.ipynb
+├── part3-validation/    # Validación
+│   ├── 1-ch-validation.ipynb
+│   └── 2-extended-validation.ipynb
+├── part4-applications/  # Aplicaciones
+│   ├── 1-batteries.ipynb
+│   └── 2-semiconductors.ipynb
+├── scripts/             # Scripts descargables
+│   ├── materials-studio/
+│   └── python-tools/
+└── references.bib       # Referencias bibliográficas
