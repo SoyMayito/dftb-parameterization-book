@@ -1,0 +1,15 @@
+
+# Mostrar instrucciones
+from IPython.display import display, Markdown
+
+display(Markdown("## 🎨 Creación del Jupyter Book Interactivo"))
+display(Markdown(installation_instructions))
+display(Markdown(book_structure))
+
+print("\nConfiguración básica del libro:")
+print("="*60)
+print(config_yml)
+print("\n" + "="*60)
+print("Tabla de contenidos:")
+print("="*60)
+print(toc_yml)
